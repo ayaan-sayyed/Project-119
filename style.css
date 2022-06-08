@@ -1,0 +1,75 @@
+body {
+    background-color: chartreuse;
+}
+
+#score {
+    font-size: 30px;
+    margin-left: -700px;
+    margin-right: 700px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#time {
+    float: right;
+    margin-right: 65px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -10px;
+}
+
+#Sketch_drawn {
+    color: magenta;
+    font-weight: bold;
+}
+
+#show_sketch {
+    float: right;
+}
+
+#confidence {
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+}
+
+#MySketch {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+
+h1 {
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+#Drawn_sketch {
+    margin-left: 480px;
+    margin-top: -40px;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+canvas {
+    border: 7px solid red;
+    border-radius: 15px;
+    animation-name: ANIMATION;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ANIMATION {
+    from {
+        box-shadow: 25px 15px 40px blue;
+    }
+
+    to {
+        box-shadow: 20px 15px 30px orchid;
+    }
+}
+
